@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body onload="mostrarCarta()">
+    <div class="carta-container">
+        <h1 id="tituloCarta" class="fade-in"></h1>
+        <div id="progressContainer" class="progress-container">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+        <p id="mensajeCarta" class="fade-in"></p>
+        <audio id="audio" src="no abra  duda.mp3" autoplay muted></audio>
+        <button onclick="quitarMute()">🔊</button>
+    </div>
+    <div id="corazones"></div>
+    <script src="js/carta.js"></script>
+    <link rel="stylesheet" href="css/carta.css">
+    <h2 id="estadoMensaje">Cargando...</h2>
+
+
+    <!-- <div id="cartaContainer" class="carta-container oculto"> -->
+
+</body>
+</html>
+
