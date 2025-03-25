@@ -8,7 +8,7 @@ body {
 /* Contenedor principal */
 .container {
     background: white;
-    width: 100%;
+    width: 50%;
     max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
